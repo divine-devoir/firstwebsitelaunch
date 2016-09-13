@@ -1,11 +1,26 @@
 h1{
   margin-top: 70px;
 }
+//mobile
+@media all and (max-width: 960px){
+  .worksthumb{
+    display: none!important;}
+    .logo{
+      display: none!important;}
+  }
+
+//desktop
+@media all and (min-width: 960px){
+  .worksthumbsm{
+    display: none!important;}
+    .logosm{
+      display:none!important;
+    }
+  }
 
 
 .worksthumb{
   opacity: 0.5;
-//  display: inline;
   float: right;
   margin-top: 50px;
   margin-right: 40px;
@@ -38,7 +53,3 @@ h2{
     float: right!important;
     position: relative;
   }
-
-  // .icon{
-    //float:right;
-  //}
