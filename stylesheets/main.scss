@@ -1,6 +1,8 @@
 h1{
   margin-top: 70px;
+
 }
+
 //mobile
 @media all and (min-width:300px) and (max-width: 479px){
   .worksthumb{
@@ -71,8 +73,3 @@ h2{
 .article{
   margin-top: 50px;
   columns: 3;}
-
-  .hamicon{
-    float: right!important;
-    position: relative;
-  }
