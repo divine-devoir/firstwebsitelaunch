@@ -1,12 +1,30 @@
-img{
+h1{
+  margin-top: 70px;
+}
+
+
+.worksthumb{
   opacity: 0.5;
 //  display: inline;
   float: right;
   margin-top: 50px;
+  margin-right: 40px;
 
 }
 
-img:hover{
+.worksthumb:hover{
+  opacity:1;
+}
+.logo{
+  opacity: 0.5;
+//  display: inline;
+  float: right;
+  margin-top: 50px;
+  margin-right: 40px;
+
+}
+
+.logo:hover{
   opacity:1;
 }
 h2{
@@ -15,3 +33,12 @@ h2{
 .article{
   margin-top: 50px;
   columns: 3;}
+
+  .hamicon{
+    float: right!important;
+    position: relative;
+  }
+
+  // .icon{
+    //float:right;
+  //}
