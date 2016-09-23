@@ -57,11 +57,14 @@ h1 {
 .logosm:hover {
   opacity: 0.5; }
 
-h2 {
-  margin-top: 40px; }
-
 .article {
   margin-top: 50px;
-  columns: 3; }
+  columns: 2; }
+
+p {
+  font-size: 23px; }
+
+h3 {
+  font-size: 30px; }
 
 /*# sourceMappingURL=main.css.map */

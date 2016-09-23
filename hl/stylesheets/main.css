@@ -1,0 +1,153 @@
+@media all and (max-width: 960px) {
+  .navdesktop-wrapper ul {
+    display: none !important; }
+
+  .hlbig {
+    display: none !important; }
+
+  .foo-hamburger {
+    position: fixed !important; }
+
+  .navmobile-wrapper {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    top: 0; }
+
+  .navmobile-wrapper li {
+    display: block;
+    padding: 3px 3px 3px 3px;
+    text-decoration: none;
+    border: 1px solid black; }
+    .navmobile-wrapper li a {
+      text-align: center;
+      border-radius: 25px;
+      color: white;
+      display: block;
+      text-decoration: none !important; }
+
+  li a:hover {
+    background-color: #2E0854;
+    padding: 0;
+    margin: 0; } }
+/*desktop*/
+@media all and (min-width: 960px) {
+  .hlittle {
+    display: none !important; }
+
+  .foo-hamburger {
+    display: none !important; }
+
+  .navdesktop-wrapper {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: auto;
+    width: 100%;
+    position: fixed;
+    top: 0; }
+
+  .navdesktop-wrapper ul {
+    background-color: black;
+    list-style: none;
+    overflow: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid white; }
+
+  .navdesktop-wrapper li {
+    float: left;
+    margin-left: 40px;
+    margin-top: 8px; }
+    .navdesktop-wrapper li a {
+      text-align: center;
+      padding: 14px 16px;
+      font-weight: bold;
+      display: block;
+      text-decoration: none;
+      color: grey; }
+    .navdesktop-wrapper li a:hover {
+      background-color: #2E0854; } }
+body {
+  background-color: black;
+  font-size: 26px; }
+
+h2 {
+  color: white; }
+
+.hooded-mobile
+.topcenter {
+  margin-top: 90px !important; }
+
+#home {
+  width: 100%;
+  height: 100vh;
+  text-align: center !important; }
+
+.topcenter {
+  padding-top: 8%; }
+
+.logoimg {
+  margin-top: 5%; }
+
+.iconsm {
+  display: inline-block !important;
+  padding: 10px; }
+
+.icon {
+  display: inline-block;
+  padding: 10px; }
+
+.icon:hover {
+  opacity: 0.5; }
+
+#video {
+  width: 100%;
+  display: table;
+  text-align: center; }
+
+.youtube {
+  margin-bottom: 60px !important; }
+
+#music {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  margin-top: 90px; }
+
+#merch {
+  width: 100%;
+  height: 100vh;
+  text-align: center; }
+
+.button {
+  background-color: black;
+  /* Green */
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 14px 2px;
+  font-size: 20px !important;
+  border-radius: 25px;
+  clear: both; }
+
+.button:hover {
+  opacity: 0.5; }
+
+#About {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  font-size: 25px !important;
+  margin-top: 390px; }
+
+/*# sourceMappingURL=main.css.map */

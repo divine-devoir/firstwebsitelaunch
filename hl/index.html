@@ -1,0 +1,160 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+
+<script src="http://w.soundcloud.com/player/api.js"></script>
+<script>
+$(document).ready(function() {
+var widget = SC.Widget(document.getElementById('soundcloud_widget'));
+widget.bind(SC.Widget.Events.READY, function() {
+  console.log('Ready...');
+});
+$('button').click(function() {
+  widget.toggle();
+});
+});
+</script>
+
+  </head>
+  <body>
+    <!--desktop nav-->
+    <!--qr code-->
+    <a class="foo-hamburger"  href="#" ><img  src="images/qr.png" alt="hamburger"></a>
+
+    <div class="navmobile-wrapper" style="display:none">
+      <nav>
+
+
+         <ul class="mobile" >
+           <li><a href="#Home">HL</a></li>
+           <li><a href="#Video">Videos</a></li>
+           <li><a href="#Music">Music</a></li>
+           <li><a href="#Merch">Merch</a></li>
+           <li><a href="#About">About</a></li>
+
+         </ul>
+       </nav>
+     </div>
+
+
+
+
+
+       <div class="navdesktop-wrapper">
+
+         <nav>
+            <ul class="nav-main">
+              <li class="sad"><img  src="http://s6.postimg.org/61omekgmp/qr.png" alt="sad-face"></li>
+              <li><a href="#Home">HL</a></li>
+              <li><a href="#Video">Videos</a></li>
+              <li><a href="#music">Music</a></li>
+              <li><a href="#Merch">Merch</a></li>
+              <li><a href="#About">About</a></li>
+
+            </ul>
+          </nav>
+        </div>
+
+
+      <section id="Home">
+
+        <!--desktop version-->
+        <div class="hlbig">
+          <!--hooded text-->
+          <div class="hooded">    <img class="topcenter" src="images/hooded-leaders.jpg" alt="text"> </div>
+          <!--hooded logo-->
+          <div class="hooded">        <img class="logoimg" src="images/hooded.jpg" alt="logo">   </div>
+        <div >
+        <!--social icons-->
+        <a href="mailto:HoodedLeaders@Gmail.com">
+        <div class=" icon"><img class="icon" src="http://s6.postimg.org/gthlfx6pd/email.png" alt="icon"></div></a>
+        <a href="http://facebook.com/HoodedLeaders">
+        <div class="icon"><img class="icon" src="http://s6.postimg.org/56xhesje9/facebook.png" alt="icon"></div></a>
+        <a href="https://www.instagram.com/hoodedleaders/">
+        <div class="icon"><img class="icon" src="http://s6.postimg.org/r2a2lqur5/instagram.png" alt="icon"></div></a>
+
+    </div>
+  </div>
+
+
+    <!--mobile version-->
+      <div class="hlittle">
+       <div class="liltext">
+         <!--hooded tex-->
+         <div class="hooded-mobile">    <img class="topcenter" src="images/hooded-leaders-sm.jpg" alt="text"> </div></div>
+         <!--hooded logo-->
+         <div class="hooded-mobile">        <img class="logoimg" src="images/hooded.jpg" alt="logo">   </div>
+
+        <!--social icons-->
+          <a href="mailto:HoodedLeaders@Gmail.com">
+        <div class=" iconsm"><img class="icon" src="http://s6.postimg.org/lgnnhou29/emailsm.png" alt="icon"></div></a>
+        <a href="http://facebook.com/HoodedLeaders">
+        <div class="iconsm"><img class="icon" src="http://s6.postimg.org/s9o0dykvl/facebooksm.pngg" alt="icon"></div></a>
+        <a href="https://www.instagram.com/hoodedleaders/">
+        <div class="iconsm"><img class="icon" src="http://s6.postimg.org/4p2byxttd/instagramsm.png" alt="icon"></div></a>
+
+
+      </div>
+
+</section>
+
+
+
+
+    <section id="Video">
+      <h2>Videos</h2>
+
+        <div class="youtube">
+          <iframe width="47%" height="500" src="https://www.youtube.com/embed/sUATkj9M188" frameborder="0" ></iframe>
+        </div>
+        <div class="youtube">
+        <iframe width="47%" height="500" src="https://www.youtube.com/embed/uESZqzJEDEg" frameborder="0" ></iframe>
+      </div>
+
+    </section>
+
+
+
+    <section id="music">
+      <h2>Music</h2>
+
+
+
+<iframe id="soundcloud_widget"
+   src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/155012289&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+   width="420"
+   height="120"
+   frameborder="no"></iframe>
+  <div class="music-button">   <button>Play </button> </div>
+    </section>
+
+
+
+
+    <section id="Merch">
+      <h2>Merch</h2>
+        <div class="merch"><img src= "http://s6.postimg.org/yv5brgq41/blackwhite.jpg"></div>
+          <div class="merch">    <a href="http://hoodedleaders.bigcartel.com/"> <button class="button ">Buy Now</button></a>
+            </div>
+    </section>
+
+
+    <section id="About">
+      <p>Where the black planets roll without aim...</p>
+    <!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+
+    </section>
+
+
+
+
+
+  </body>
+</html>
